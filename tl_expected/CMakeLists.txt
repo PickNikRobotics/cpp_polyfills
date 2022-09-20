@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 3.22)
 project(tl_expected
   HOMEPAGE_URL https://tl.tartanllama.xyz
   DESCRIPTION "C++11/14/17 std::expected with functional-style extensions"
-  VERSION 1.0.0
   LANGUAGES CXX
 )
 
