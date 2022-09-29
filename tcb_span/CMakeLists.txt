@@ -29,5 +29,5 @@ install(
   INCLUDES DESTINATION include
 )
 
-ament_export_targets(export_tcb_span)
+ament_export_targets(export_tcb_span HAS_LIBRARY_TARGET)
 ament_package()

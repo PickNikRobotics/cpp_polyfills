@@ -27,5 +27,5 @@ install(
   INCLUDES DESTINATION include
 )
 
-ament_export_targets(export_tl_expected)
+ament_export_targets(export_tl_expected HAS_LIBRARY_TARGET)
 ament_package()
