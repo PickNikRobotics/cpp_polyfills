@@ -13,7 +13,10 @@ target_include_directories(tl_expected INTERFACE
   $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>)
 target_compile_features(tl_expected INTERFACE cxx_std_17)
 
-install(DIRECTORY include/ DESTINATION include/)
+install(
+  DIRECTORY include/
+  DESTINATION include
+)
 
 install(
   TARGETS tl_expected
@@ -24,7 +27,5 @@ install(
   INCLUDES DESTINATION include
 )
 
-ament_export_include_directories(include)
 ament_export_targets(export_tl_expected)
-
 ament_package()

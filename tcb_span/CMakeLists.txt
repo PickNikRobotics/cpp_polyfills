@@ -11,7 +11,14 @@ target_include_directories(tcb_span INTERFACE
   $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>)
 target_compile_features(tcb_span INTERFACE cxx_std_17)
 
-install(DIRECTORY include/ DESTINATION include/)
+if(BUILD_TESTING)
+  add_subdirectory(test)
+endif()
+
+install(
+  DIRECTORY include/
+  DESTINATION include
+)
 
 install(
   TARGETS tcb_span
@@ -22,11 +29,5 @@ install(
   INCLUDES DESTINATION include
 )
 
-ament_export_include_directories(include)
 ament_export_targets(export_tcb_span)
-
-if(BUILD_TESTING)
-  add_subdirectory(test)
-endif()
-
 ament_package()
