@@ -5,6 +5,8 @@
   <version>1.0.2</version>
   <description>C++11/14/17 std::expected with functional-style extensions</description>
   <maintainer email="maybe@tylerjw.dev">Tyler Weaver</maintainer>
+  <maintainer email="nathanbrooks@picknik.ai">Nathan Brooks</maintainer>
+  <maintainer email="shaurya.kumar@picknik.ai">Shaurya Kumar</maintainer>
 
   <author>Sy Brand</author>
   <license>CC0-1.0</license>
