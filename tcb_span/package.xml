@@ -6,7 +6,7 @@
   <description>Implementation of C++20's std::span</description>
   <maintainer email="maybe@tylerjw.dev">Tyler Weaver</maintainer>
 
-  <license>Boost Software License</license>
+  <license>BSL-1.0</license>
   <url>https://github.com/tcbrindle/span</url>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
