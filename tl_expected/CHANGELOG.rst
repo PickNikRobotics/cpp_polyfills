@@ -2,6 +2,12 @@
 Changelog for package tl_expected
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.2.0 (2025-07-24)
+------------------
+* Update header to version 1.2.0
+* fixing license tag in package.xml to conform to SPDX
+* Contributors: Matthias Schoepfer, Sebastian Castro
+
 1.0.2 (2022-10-02)
 ------------------
 * HAS_LIBRARY_TARGET
