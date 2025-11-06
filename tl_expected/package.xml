@@ -4,6 +4,8 @@
   <name>tl_expected</name>
   <version>1.2.0</version>
   <description>C++11/14/17 std::expected with functional-style extensions</description>
+  <maintainer email="bence.magyar.robotics@gmail.com">bmagyar</maintainer>
+  <maintainer email="christoph.froehlich@ait.ac.at">christophfroehlich</maintainer>
   <maintainer email="maybe@tylerjw.dev">Tyler Weaver</maintainer>
   <maintainer email="nathanbrooks@picknik.ai">Nathan Brooks</maintainer>
   <maintainer email="shaurya.kumar@picknik.ai">Shaurya Kumar</maintainer>

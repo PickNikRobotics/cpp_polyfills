@@ -4,9 +4,11 @@
   <name>tcb_span</name>
   <version>1.0.2</version>
   <description>Implementation of C++20's std::span</description>
-  <maintainer email="maybe@tylerjw.dev">Tyler Weaver</maintainer>
+  <maintainer email="bence.magyar.robotics@gmail.com">bmagyar</maintainer>
+  <maintainer email="christoph.froehlich@ait.ac.at">christophfroehlich</maintainer>
   <maintainer email="nathanbrooks@picknik.ai">Nathan Brooks</maintainer>
   <maintainer email="shaurya.kumar@picknik.ai">Shaurya Kumar</maintainer>
+  <author email="maybe@tylerjw.dev">Tyler Weaver</author>
 
   <license>BSL-1.0</license>
   <url>https://github.com/tcbrindle/span</url>
