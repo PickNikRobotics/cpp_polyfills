@@ -2,6 +2,12 @@
 Changelog for package tcb_span
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add some new maintainers for ROS releases
+* fixing license tag in package.xml to conform to SPDX
+* Contributors: Matthias Schoepfer, Nathan Brooks
+
 1.0.2 (2022-10-02)
 ------------------
 * HAS_LIBRARY_TARGET
