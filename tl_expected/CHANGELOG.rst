@@ -2,8 +2,8 @@
 Changelog for package tl_expected
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.2.0 (2025-12-23)
+------------------
 * Add simple pre-commit job and dependabot config (`#7 <https://github.com/PickNikRobotics/cpp_polyfills/issues/7>`_)
 * Add some new maintainers for ROS releases
 * Update header to version 1.2.0
