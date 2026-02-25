@@ -7,7 +7,13 @@ project(tl_expected
 
 find_package(ament_cmake REQUIRED)
 
+option(USE_VENDORED_TL_EXPECTED "Use vendored tl_expected instead of system libexpected-dev" OFF)
+
 add_library(tl_expected INTERFACE)
+
+if(USE_VENDORED_TL_EXPECTED)
+  target_compile_definitions(tl_expected INTERFACE USE_VENDORED_TL_EXPECTED)
+endif()
 target_include_directories(tl_expected INTERFACE
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>)
