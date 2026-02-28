@@ -21,5 +21,4 @@ jobs:
     uses: ros-controls/ros2_control_ci/.github/workflows/reusable-ros-tooling-win-build.yml@harden/win
     with:
       ros_distro: rolling
-      pixi_dependencies: compilers
       target_cmake_args: -DBUILD_TESTING=OFF
