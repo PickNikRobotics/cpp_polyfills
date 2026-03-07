@@ -16,7 +16,7 @@
 // If the system header is available and vendored version is not explicitly
 // requested, redirect to the system header with a deprecation warning.
 #if !defined(USE_VENDORED_TL_EXPECTED) && __has_include(<tl/expected.hpp>)
-#warning("tl_expected/expected.hpp is deprecated, use tl/expected.hpp instead")
+#warning "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."
 #include <tl/expected.hpp>
 #else
 
