@@ -1,0 +1,36 @@
+context:
+  name: ros-humble-tl-expected
+  version: "1.0.2"
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  git_url: https://github.com/PickNikRobotics/cpp_polyfills.git
+  git_rev: 1.0.2
+
+build:
+  number: 0
+  script:
+    - cd tl_expected
+    - cmake ${CMAKE_ARGS} -DBUILD_TESTS=OFF -DCMAKE_BUILD_TYPE=Release -S . -B build
+    - cmake --build build
+    - cmake --install build --prefix $PREFIX 
+
+requirements:
+  build:
+    - "{{ compiler('cxx') }}"
+    - cmake
+    - make
+    - ros-humble-ament-cmake
+    - ros-humble-ament-cmake-gtest
+
+test:
+  commands:
+    - test -f ${PREFIX}/include/tl_expected/expected.hpp
+
+about:
+  home: https://github.com/PickNikRobotics/cpp_polyfills
+  license: 	CC0-1.0
+  summary: C++11/14/17 std::expected with functional-style extensions
