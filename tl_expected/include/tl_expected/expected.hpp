@@ -13,12 +13,12 @@
 // <http://creativecommons.org/publicdomain/zero/1.0/>.
 ///
 
-// If the system header is available and vendored version is not explicitly
-// requested, redirect to the system header with a deprecation warning.
-#if !defined(USE_VENDORED_TL_EXPECTED) && __has_include(<tl/expected.hpp>)
-#warning "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."
+// If the system header is available, redirect to it.
+// Otherwise, fall back to the vendored version with a deprecation warning.
+#if __has_include(<tl/expected.hpp>)
 #include <tl/expected.hpp>
 #else
+#warning "tl_expected/expected.hpp is deprecated. Please install libexpected-dev and use <tl/expected.hpp> instead."
 
 #ifndef TL_EXPECTED_HPP
 #define TL_EXPECTED_HPP
