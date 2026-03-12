@@ -16,6 +16,8 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
+  <build_export_depend>libexpected-dev</build_export_depend>
+
   <export>
     <build_type>ament_cmake</build_type>
   </export>
