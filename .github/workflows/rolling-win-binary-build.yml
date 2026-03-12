@@ -20,4 +20,3 @@ jobs:
     with:
       ros_distro: rolling
       pixi_dependencies: compilers
-      target_cmake_args: -DBUILD_TESTING=OFF
