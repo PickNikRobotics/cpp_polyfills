@@ -1,16 +1,16 @@
 # This config uses industrial_ci (https://github.com/ros-industrial/industrial_ci.git).
 # For troubleshooting, see readme (https://github.com/ros-industrial/industrial_ci/blob/master/README.rst)
 
-name: Rolling - Binary Build
+name: Humble - Binary Build
 on:
   workflow_dispatch:
   pull_request: &event
     branches:
-      - main
+      - humble
   push: *event
 
 concurrency:
-  # cancel previous runs of the same workflow, except for pushes on given branches branch
+  # cancel previous runs of the same workflow, except for pushes on given branches
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: ${{ !startsWith(github.ref, 'refs/heads') }}
 
@@ -20,7 +20,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        ROS_DISTRO: [rolling]
+        ROS_DISTRO: [humble, jazzy, kilted]
         ROS_REPO: [main, testing]
     with:
       ros_distro: ${{ matrix.ROS_DISTRO }}
@@ -29,7 +29,7 @@ jobs:
   binary_clang:
     uses: ros-controls/ros2_control_ci/.github/workflows/reusable-industrial-ci-with-cache.yml@master
     with:
-      ros_distro: rolling
+      ros_distro: humble
       ros_repo: testing
       ref_for_scheduled_build: master
       additional_debs: clang
