@@ -2,6 +2,12 @@
 Changelog for package tl_expected
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Redirect tl_expected to system libexpected-dev when available (`#12 <https://github.com/PickNikRobotics/cpp_polyfills/issues/12>`_)
+* Update maintainers (`#15 <https://github.com/PickNikRobotics/cpp_polyfills/issues/15>`_)
+* Contributors: Christoph Fröhlich, Tamaki Nishino
+
 1.2.0 (2025-12-23)
 ------------------
 * Add simple pre-commit job and dependabot config (`#7 <https://github.com/PickNikRobotics/cpp_polyfills/issues/7>`_)

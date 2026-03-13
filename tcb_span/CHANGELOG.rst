@@ -2,6 +2,11 @@
 Changelog for package tcb_span
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Update maintainers (`#15 <https://github.com/PickNikRobotics/cpp_polyfills/issues/15>`_)
+* Contributors: Christoph Fröhlich
+
 1.2.0 (2025-12-23)
 ------------------
 * Add some new maintainers for ROS releases
