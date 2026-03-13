@@ -2,8 +2,8 @@
 Changelog for package tl_expected
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.0.0 (2026-03-13)
+------------------
 * Redirect tl_expected to system libexpected-dev when available (`#12 <https://github.com/PickNikRobotics/cpp_polyfills/issues/12>`_)
 * Update maintainers (`#15 <https://github.com/PickNikRobotics/cpp_polyfills/issues/15>`_)
 * Contributors: Christoph Fröhlich, Tamaki Nishino
