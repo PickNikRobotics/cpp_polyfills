@@ -2,6 +2,9 @@
 Changelog for package tcb_span
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 2.0.0 (2026-03-13)
 ------------------
 * Update maintainers (`#15 <https://github.com/PickNikRobotics/cpp_polyfills/issues/15>`_)
