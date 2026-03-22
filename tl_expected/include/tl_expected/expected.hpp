@@ -13,7 +13,13 @@
 // <http://creativecommons.org/publicdomain/zero/1.0/>.
 ///
 
-#warning "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."
+#ifdef _WIN32
+#pragma message( \
+  "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.")   // NOLINT
+#else
+#warning \
+  "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."   // NOLINT
+#endif
 // If the system header is available, redirect to it.
 // Otherwise, fall back to the vendored version
 #if __has_include(<tl/expected.hpp>)
