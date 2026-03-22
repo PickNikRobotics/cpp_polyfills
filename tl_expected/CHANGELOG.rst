@@ -2,8 +2,8 @@
 Changelog for package tl_expected
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.0.1 (2026-03-22)
+------------------
 * Fix invalid preprocessor command 'warning' on MSVC (`#19 <https://github.com/PickNikRobotics/cpp_polyfills/issues/19>`_)
 * Contributors: Christoph Fröhlich
 
