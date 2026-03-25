@@ -20,5 +20,10 @@
 
   <export>
     <build_type>ament_cmake</build_type>
+    <deprecated>
+      This package will be removed in ROS 2 Lyrical Luth.
+      Use tl/expected.hpp from libexpected-dev,
+      or rcpputils/tl_expected/expected.hpp if the system header is not available
+    </deprecated>
   </export>
 </package>
