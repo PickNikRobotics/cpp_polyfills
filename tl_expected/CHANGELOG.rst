@@ -2,6 +2,11 @@
 Changelog for package tl_expected
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add a deprecation warning to the package.xml (`#21 <https://github.com/PickNikRobotics/cpp_polyfills/issues/21>`_)
+* Contributors: Christoph Fröhlich
+
 2.0.1 (2026-03-22)
 ------------------
 * Fix invalid preprocessor command 'warning' on MSVC (`#19 <https://github.com/PickNikRobotics/cpp_polyfills/issues/19>`_)
