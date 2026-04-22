@@ -2,6 +2,14 @@
 Changelog for package tl_expected
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Move deprecation warning outside of include guards (`#22 <https://github.com/PickNikRobotics/cpp_polyfills/issues/22>`_)
+* Add a deprecation warning to the package.xml (backport `#21 <https://github.com/PickNikRobotics/cpp_polyfills/issues/21>`_) (`#23 <https://github.com/PickNikRobotics/cpp_polyfills/issues/23>`_)
+* Add a deprecation warning to tl_expected (`#18 <https://github.com/PickNikRobotics/cpp_polyfills/issues/18>`_)
+* Update maintainers (`#15 <https://github.com/PickNikRobotics/cpp_polyfills/issues/15>`_)
+* Contributors: Christoph Fröhlich
+
 1.2.0 (2025-12-23)
 ------------------
 * Add simple pre-commit job and dependabot config (`#7 <https://github.com/PickNikRobotics/cpp_polyfills/issues/7>`_)
