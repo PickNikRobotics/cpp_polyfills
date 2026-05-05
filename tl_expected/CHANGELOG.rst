@@ -2,8 +2,8 @@
 Changelog for package tl_expected
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.3.1 (2026-05-05)
+------------------
 * Make the deprecation warning not fail with -Werror (`#26 <https://github.com/PickNikRobotics/cpp_polyfills/issues/26>`_)
 * Contributors: Christoph Fröhlich
 
