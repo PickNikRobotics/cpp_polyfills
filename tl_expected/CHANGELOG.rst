@@ -2,8 +2,8 @@
 Changelog for package tl_expected
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.3.2 (2026-06-11)
+------------------
 * SILENCE_DEPRECATION_WARNINGS from parameter_traits (`#28 <https://github.com/PickNikRobotics/cpp_polyfills/issues/28>`_)
 * Contributors: Christoph Fröhlich
 
